@@ -4,7 +4,10 @@ const totalTareas = document.querySelector("#total-tareas");
 const totalTareasRealizadas = document.querySelector("#total-tareas-realizadas");
 const tablaTareas = document.querySelector("#tabla-body");
 
-let listaTareas = [];
+let listaTareas = [
+    { id: Date.now(), tarea: "lorem ipsum dolor" },
+    { id: Date.now() + 1, tarea: "lorem ipsum dolor" },
+    { id: Date.now() + 2, tarea: "lorem ipsum dolor" }];
 let tareasCompletadas = [];
 
 function renderTareas() {
@@ -45,3 +48,5 @@ function completarTarea(idTarea) {
         renderTareas();
     }
 }
+
+renderTareas();
