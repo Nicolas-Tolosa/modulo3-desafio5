@@ -20,4 +20,4 @@
 ## Capturas
 ![Desafio con las 3 tareas iniciales](https://github.com/Nicolas-Tolosa/modulo3-desafio5.github.io/blob/main/screenshot1.jpg)
 ![Desafio añadiendo mas tareas y contando el total de tareas](https://github.com/Nicolas-Tolosa/modulo3-desafio5.github.io/blob/main/screenshot2.jpg)
-![Desafio al completar tareas y contando el total de tareas realizadas](https://github.com/Nicolas-Tolosa/modulo3-desafio5.github.io/blob/main/screenshot2.jpg)
+![Desafio al completar tareas y contando el total de tareas realizadas](https://github.com/Nicolas-Tolosa/modulo3-desafio5.github.io/blob/main/screenshot3.jpg)
