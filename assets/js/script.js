@@ -27,11 +27,16 @@ function renderTareas() {
 }
 
 botonAgregarTarea.addEventListener("click", () => {
-    let nuevaTarea = { id: Date.now(), tarea: inputTarea.value };
-    listaTareas.push(nuevaTarea);
-    inputTarea.value = "";
-    console.log(listaTareas);
-    renderTareas();
+    if (inputTarea.value === ""){
+        alert("Por favor escribe una tarea")
+    } else {
+        let nuevaTarea = { id: Date.now(), tarea: inputTarea.value };
+        listaTareas.push(nuevaTarea);
+        inputTarea.value = "";
+        console.log(listaTareas);
+        renderTareas();
+    }
+
 });
 
 function borrarTarea(idTarea) {
